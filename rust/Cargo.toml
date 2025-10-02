@@ -1,0 +1,11 @@
+[package]
+name = "hello_world"
+version = "0.0.1"
+edition = "2021"
+authors = ["osbm <osbm@osbm.dev>"]
+description = ""
+license = "MIT"
+repository = "https://github.com/osbm/REPONAME"
+keywords = []
+categories = []
+exclude = ["docs/", "*.nix", ".github", ".envrc", "flake.lock"]
