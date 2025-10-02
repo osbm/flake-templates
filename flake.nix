@@ -2,6 +2,7 @@
   description = "My templates for nix projects";
   outputs = { self }: {
     templates = {
+      default = self.templates.python;
       pytorch = {
         path = ./pytorch;
         description = "A template for PyTorch projects";
