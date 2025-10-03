@@ -18,6 +18,11 @@
         description = "A template for Rust projects";
         welcomeText = "Welcome to the Rust project template!";
       };
+      huggingface-space = {
+        path = ./huggingface-space;
+        description = "A template for Huggingface Space, that builds with Nix!";
+        welcomeText = "Welcome to the Huggingface Space template!";
+      };
     };
   };
 }
