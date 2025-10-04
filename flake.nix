@@ -23,6 +23,11 @@
         description = "A template for Huggingface Space, that builds with Nix!";
         welcomeText = "Welcome to the Huggingface Space template!";
       };
+      devshell = {
+        path = ./devshell;
+        description = "A template for a simple devshell";
+        welcomeText = "Welcome to the devshell template!";
+      };
     };
   };
 }
