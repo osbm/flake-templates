@@ -10,8 +10,8 @@
   };
   inputs.nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
   outputs = {
-    self,
     nixpkgs,
+    ...
   }: let
     forAllSystems = nixpkgs.lib.genAttrs [
       "aarch64-linux"
